@@ -147,3 +147,46 @@ PARALLEL_MAKE_pn-shared-mime-info-native = "-j 1"
 # 3) Proprietary licenses we can ship
 LICENSE_FLAGS_WHITELIST = "commercial_broadcom-wifi"
 LICENSE_FLAGS_WHITELIST += "commercial_microcode-ctl"
+
+
+#Use the QEMU 1.4 premerge stages.
+
+#dm-agent repo
+OPENXT_GIT_MIRROR_pn-dm-agent               = "github.com/brendank310"
+
+#input repo
+OPENXT_GIT_MIRROR_pn-xenclient-input-daemon = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-xenclient-superhid     = "github.com/brendank310"
+
+#manager repo
+OPENXT_GIT_MIRROR_pn-db-tools               = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-apptool                = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-dbd                    = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-libxenmgr-core         = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-rpc-proxy              = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-updatemgr              = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-upgrade-db             = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-xec                    = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-xenmgr                 = "github.com/brendank310"
+
+#toolstack repo
+OPENXT_GIT_MIRROR_pn-xenclient-toolstack    = "github.com/brendank310"
+
+#xctools repo
+OPENXT_GIT_MIRROR_pn-libxenacpi             = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-atapi-pt-helper        = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-audio-daemon           = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-audio-helper           = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-compleat               = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-fusechat               = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-gtk-switcher.bb        = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-pci-dm-helper.bb       = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-pmutil                 = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-xcpmd                  = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-xsd-validate.bb        = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-carrier-detect.bb      = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-deb-xenmou-dkms        = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-libdmbus               = "github.com/brendank310"
+
+#xsm-policy repo
+OPENXT_GIT_MIRROR_pn-xen-xsm-policy         = "github.com/brendank310"
