@@ -153,6 +153,7 @@ LICENSE_FLAGS_WHITELIST += "commercial_microcode-ctl"
 
 #dm-agent repo
 OPENXT_GIT_MIRROR_pn-dm-agent               = "github.com/brendank310"
+OPENXT_GIT_MIRROR_pn-dm-agent-stubdom       = "github.com/brendank310"
 
 #input repo
 OPENXT_GIT_MIRROR_pn-xenclient-input-daemon = "github.com/brendank310"
