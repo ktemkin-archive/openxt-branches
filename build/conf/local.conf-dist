@@ -190,3 +190,15 @@ OPENXT_GIT_MIRROR_pn-libdmbus               = "github.com/brendank310"
 
 #xsm-policy repo
 OPENXT_GIT_MIRROR_pn-xen-xsm-policy         = "github.com/brendank310"
+
+#surfman repo
+OPENXT_GIT_MIRROR_pn-libsurfman             = "github.com/ktemkin"
+OPENXT_GIT_MIRROR_pn-surfman                = "github.com/ktemkin"
+OPENXT_GIT_MIRROR_pn-surfman-sample         = "github.com/ktemkin"
+OPENXT_GIT_MIRROR_pn-drm-surfman-plugin     = "github.com/ktemkin"
+OPENXT_GIT_MIRROR_pn-linuxfb-surfman-plugin = "github.com/ktemkin"
+OPENXT_BRANCH_pn-libsurfman                 = "remove-unused-code-paths"
+OPENXT_BRANCH_pn-surfman                    = "remove-unused-code-paths"
+OPENXT_BRANCH_pn-surfman-sample             = "remove-unused-code-paths"
+OPENXT_BRANCH_pn-drm-surfman-plugin         = "remove-unused-code-paths"
+OPENXT_BRANCH_pn-linuxfb-surfman-plugin     = "remove-unused-code-paths"
