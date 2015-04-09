@@ -1,0 +1,6 @@
+META_SELINUX_REPO=git://github.com/OpenXT/meta-selinux.git
+EXTRA_REPO=git://github.com/OpenXT/xenclient-oe-extra.git
+EXTRA_DIR=extra
+EXTRA_TAG="master"
+XENCLIENT_REPO=git://github.com/ktemkin/xenclient-oe.git
+XENCLIENT_TAG="gpu_passthrough"
